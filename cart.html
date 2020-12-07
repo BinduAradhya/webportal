@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Cart | Ecommerce Site</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width = device-width, initial-scale = 1.0">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&family=Roboto+Condensed&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="style.css" type="text/css">
+        <!-- To Align Text properly -->
+        <link rel="stylesheet" href="products.css" type="text/css">
+        <link rel="stylesheet" href="show.css" type="text/css">
+        <link rel="stylesheet" href="cart.css" type="text/css">
+     </head>
+     <body bgcolor="black">
+        
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <a href="index.html"><img src="images/logo.png" alt="Logo for website"></a>
+                </div>
+                <nav>
+                <ul id="menuItems">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="category.html">Categories</a></li>
+                    <li><a href="99store.html">99 Store</a></li>
+                    <li><a href="cart.html">Sell</a></li>
+                    <li><a href="account.html">Account</a></li>
+                </ul>
+                </nav>
+                <a href="cart.html"><img id="cart" src="images/cart.png"></a> 
+                <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+
+            </div>  
+        </div>
+        
+        <!---------- Cart Details ------------>
+    
+        <div class="small-container cart-detail">
+            <table>
+                <tr>
+                    <th>Product Detail</th>
+                    <th>Quantity</th>
+                    <th>Price</th>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="cart-info">
+                            <img src="images/product-1.jpg">
+                            <div>
+                                <p>Think Like a Monk</p>
+                                <small>Price: Rs 325</small>
+                                <br>
+                                <a href="">Remove</a>
+                            </div>
+                        </div>
+                    </td>
+                    <td><input type="number" value="1"></td>
+                    <td>Rs 325</td>
+                </tr>
+           
+        
+        <div class="total-price">
+            <table>
+                <tr>
+                    <td>Subtotal</td>
+                    <td>Rs 325</td>
+                </tr>
+                <tr>
+                    <td>Tax</td>
+                    <td>Rs 74</td>
+                </tr>
+                <tr>
+                    <td>Total</td>
+                    <td>Rs 399</td>
+                </tr>
+            </table>            
+        </div>
+    </div>
+
+        <!--------------- Footer ------------->
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col-1">
+                        <h3>Download Our App</h3>
+                        <p>Download App for Android and ios Mobile Phone</p>
+                        <div class="app-logo">
+                            <img src="images/play-store.png">
+                            <img src="images/app-store.png">
+                        </div>      
+                    </div>
+                    <div class="footer-col-2">
+                        <img src="images/logo-white.png" alt="">
+                        <p>Spread the joy of Reading</p>      
+                    </div>
+                    <div class="footer-col-3">
+                        <h3>Useful Links</h3>
+                        <ul>
+                            <li>Coupons</li>
+                            <li>Blog Post</li>
+                            <li>Return Policy</li>
+                            <li>Join Affiliate</li>
+                        </ul>
+                    </div>
+                    <div class="footer-col-4">
+                        <h3>Follow us</h3>
+                        <ul>
+                            <li>Facebook</li>
+                            <li>Instagram</li>
+                            <li>LinkedIn</li>
+                            <li>Twitter</li>
+                        </ul>
+                    </div>
+                    <hr>
+                    
+                </div>
+            </div>
+        </div>
+
+        <!-- Script File -->
+          <script src="script.js"></script> 
+        <!-- Show Images  -->
+        <script src="show.js"></script> 
+     </body>       
+</html>    
